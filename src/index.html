@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="/portfolio/dist/styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" crossorigin="anonymous"></script>
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100 font-roboto"
+  >
+    <!-- Навігація -->
+    <header>
+      <nav
+        id="navbar"
+        class="bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 shadow-lg w-full fixed top-0 z-50 transition-transform duration-500"
+      >
+        <div class="flex h-16 items-center justify-between px-6">
+          <!-- Лого -->
+          <div>
+            <a
+              href="#"
+              class="text-white text-2xl font-bold tracking-wide hover:text-purple-400 font-playfair"
+              >Artem Portfolio</a
+            >
+          </div>
+          <!-- Навігація -->
+          <div class="hidden sm:flex space-x-4">
+            <a
+              href="#"
+              class="rounded-md px-4 py-2 text-sm font-medium text-white bg-purple-600 hover:bg-purple-500 shadow-md"
+              >Home</a
+            >
+            <a
+              href="#projects"
+              class="rounded-md px-4 py-2 text-sm font-medium text-white hover:bg-purple-500"
+              >Projects</a
+            >
+            <a
+              href="#contact"
+              class="rounded-md px-4 py-2 text-sm font-medium text-white hover:bg-purple-500"
+              >Contact</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Головна сторінка -->
+    <main class="w-full">
+      <section
+        class="text-center py-16 bg-gradient-to-b from-purple-900 via-black to-gray-900 text-white w-full"
+      >
+        <h1 class="text-5xl font-extrabold mb-4 text-white font-playfair">
+          Привіт, я <span class="text-purple-400">Артем</span>
+        </h1>
+        <img
+          src="./img/my_photo.jpg"
+          alt="My photo"
+          class="w-40 h-40 rounded-full border-4 border-purple-600 mx-auto mb-4 shadow-lg"
+        />
+        <p class="text-xl max-w-2xl mx-auto leading-relaxed text-gray-300">
+          <span class="font-bold text-purple-400">Студент</span> (комп’ютерні
+          науки, програміст). <br />Починаючий
+          <span class="italic">айтішник</span>,
+          <span class="font-bold text-purple-400">проєктний менеджер</span>.
+          <br />Активний учасник громадських ініціатив.
+        </p>
+        <!-- Блок соцмереж -->
+<div class="mt-8 flex justify-center">
+  <div class="bg-purple-600 rounded-lg p-6 shadow-lg">
+    <div class="flex space-x-6">
+      <a
+        href="https://www.instagram.com/_.kaizenn/profilecard/?igsh=a20ybGdndHZqZnJs"
+        target="_blank"
+        class="group relative flex h-12 w-12 items-center justify-cente rounded-full shadow-md transition-transform duration-300 hover:scale-110"
+      >
+        <img src="img/instagram.png" alt="Instagram" class="h-6 w-6" />
+      </a>
+      <a
+        href="https://t.me/kaizenn_an"
+        target="_blank"
+        class="group relative flex h-12 w-12 items-center justify-cente rounded-full shadow-md transition-transform duration-300 hover:scale-110"
+      >
+        <img src="img/telegram.png" alt="Telegram" class="h-6 w-6" />
+      </a>
+      <a
+        href="https://www.facebook.com/profile.php?id=100014158230544"
+        target="_blank"
+        class="group relative flex h-12 w-12 items-center justify-cente rounded-full shadow-md transition-transform duration-300 hover:scale-110"
+      >
+        <img src="img/facebook.png" alt="Facebook" class="h-6 w-6" />
+      </a>
+      <a
+        href="https://github.com/Kaizen-an"
+        target="_blank"
+        class="group relative flex h-12 w-12 items-center justify-cente rounded-full shadow-md transition-transform duration-300 hover:scale-110"
+      >
+        <img src="img/github.png" alt="GitHub" class="h-6 w-6" />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/artem-antonevych-3511a2283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        target="_blank"
+        class="group relative flex h-12 w-12 items-center justify-cente rounded-full shadow-md transition-transform duration-300 hover:scale-110"
+      >
+        <img src="img/linkedin.png" alt="LinkedIn" class="h-6 w-6" />
+      </a>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </section>
+      <!-- Проекти -->
+      <section
+        id="projects"
+        class="py-16 bg-gradient-to-b from-black to-gray-900 w-full"
+      >
+        <h2 class="text-3xl font-bold text-center mb-6 text-white">
+          Мої Проекти
+        </h2>
+        <p class="text-center text-gray-400 mb-12">
+          Ознайомтесь із моїми роботами
+        </p>
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-6"
+        >
+          <div class="bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <img
+              src="./img/project_1.png"
+              alt="Project 1"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-purple-400">Бандерогусь</h3>
+              <p class="text-sm text-gray-400 mt-2">
+                Сайт який я виконував на підготовчих курсах. Доволі простий і
+                має тільки HTML в основі
+              </p>
+              <a
+                href="https://kaizen-an.github.io/banderogus/"
+                target="_blank"
+                class="block mt-4 text-center px-6 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-500 shadow-md"
+                >Детальніше</a
+              >
+            </div>
+          </div>
+          <div class="bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <img
+              src="./img/project_2.png"
+              alt="Project 2"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-purple-400">
+                Мед-клініка з магазином
+              </h3>
+              <p class="text-sm text-gray-400 mt-2">
+                Для цього сайту я використовував Python/Flask, HeidiSQL, HTML,
+                CSS та JavaScript
+              </p>
+              <a
+                href="https://github.com/Kaizen-an/website-of-a-medical-clinic-with-a-pharmacy"
+                target="_blank"
+                class="block mt-4 text-center px-6 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-500 shadow-md"
+                >Детальніше</a
+              >
+            </div>
+          </div>
+          <div class="bg-gray-800 shadow-md rounded-lg overflow-hidden">
+            <img
+              src="./img/project_3.png"
+              alt="Project 3"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-purple-400">
+                Сайт для Anastreela
+              </h3>
+              <p class="text-sm text-gray-400 mt-2">
+                Сайт магазин + портфоліо, який я виконував на замовлення.
+                Зроблений на Wordpress.
+              </p>
+              <a
+                href="https://anastreela.art/"
+                target="_blank"
+                class="block mt-4 text-center px-6 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-500 shadow-md"
+                >Детальніше</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Контакти -->
+      <section
+        id="contact"
+        class="py-16 bg-gradient-to-t from-gray-900 to-black text-white w-full"
+      >
+        <h2 class="text-3xl font-bold text-center mb-6 font-playfair">
+          Зв'яжіться зі мною
+        </h2>
+        <p class="text-center text-gray-400 mb-8">
+          Заповніть форму, щоб надіслати повідомлення
+        </p>
+        <form id="contact-form" class="max-w-lg mx-auto space-y-4">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ваше ім'я"
+            class="w-full p-3 rounded-lg border border-gray-600 bg-gray-700 text-white placeholder-gray-400"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ваш email"
+            class="w-full p-3 rounded-lg border border-gray-600 bg-gray-700 text-white placeholder-gray-400"
+            required
+          />
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Ваше повідомлення"
+            class="w-full p-3 rounded-lg border border-gray-600 bg-gray-700 text-white placeholder-gray-400"
+            required
+          ></textarea>
+          <button
+            type="submit"
+            class="w-full py-3 text-lg font-medium bg-purple-600 hover:bg-purple-500 text-white rounded-lg shadow-lg"
+          >
+            Надіслати
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="bg-gray-900 text-white text-center py-6 w-full">
+      <p class="text-gray-400">&copy; 2024 Artem. Усі права захищені.</p>
+    </footer>
+
+    <script>
+      let lastScrollY = window.scrollY;
+
+      window.addEventListener("scroll", () => {
+        const navbar = document.getElementById("navbar");
+        if (window.scrollY > lastScrollY) {
+          navbar.style.transform = "translateY(-100%)"; // Приховати навігацію
+        } else {
+          navbar.style.transform = "translateY(0)"; // Показати навігацію
+        }
+        lastScrollY = window.scrollY;
+      });
+    </script>
+    <script src="telegram.js"></script>
+  </body>
+</html>
